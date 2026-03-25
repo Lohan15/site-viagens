@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploreMundo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <span class="material-icons" style="color:#f5a623; vertical-align: middle;">location_on</span>
+        <span class="logo-texto"><span class="logo-azul" style="color: white;">Explore</span><span class="logo-laranja">Mundo</span></span>
+      </div>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>  
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">  
+      <div class="hero-conteudo">
+        <h1>Descubra Lugares Incríveis!</h1>
+        <p>Explore os melhores destinos ao redor do mundo.</p>
+        <a href="#destinos" class="btn">Saiba Mais</a>
+      </div>
+    </section>
+
+    <section id="destinos">   
+      <h2>Destinos Populares</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="praia.jpg" alt="Praias">
+          <h3>Praias Paradisíacas</h3>
+          <p>Conheça as mais belas praias</p>
+        </div>
+        <div class="card">
+          <img src="montanha.jpg" alt="Montanhas">
+          <h3>Montanhas</h3>
+          <p>Aventuras nas alturas</p>
+        </div>
+        <div class="card">
+          <img src="cidade.jpg" alt="Cidades">
+          <h3>Cidades Históricas</h3>
+          <p>Explore a cultura e historia</p>
+        </div>
+      </div>
+      <a href="destinos.html" class="btn">Ver Mais Destinos</a>
+    </section>
+
+    <section id="sobre">        
+      <h2>Sobre Nós</h2>
+      <p>Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+      <a href="#" class="btn">Leia Mais</a>
+    </section>
+
+    <section id="contato">    
+      <div class="contato-container">
+        <div class="formulario">
+          <h2>Fale Conosco</h2>
+          <input type="text" placeholder="Nome">
+          <input type="email" placeholder="E-mail">
+          <textarea placeholder="Mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </div>
+
+        <div class="mapa-info">
+          <h2>Onde Estamos</h2>
+          <img src="mapa.png" alt="Mapa">
+          
+          <div class="info-contato">
+            <div class="item-contato">
+              <i class="fa-solid fa-envelope"></i>
+              <span>email: contato@exploremundo.com</span>
+            </div>
+            
+            <hr class="linha-divisora">
+
+            <div class="item-contato">
+              <i class="fa-solid fa-phone"></i>
+              <span>(11) 1234-5678</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 ExploreMundo - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
